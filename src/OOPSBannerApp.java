@@ -1,10 +1,15 @@
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
-        System.out.println(" OOOOO  OOOOO  PPPPP  SSSSS ");
-        System.out.println("O     O O     O P    P S     ");
-        System.out.println("O     O O     O PPPPP   SSSS ");
-        System.out.println("O     O O     O P           S");
-        System.out.println(" OOOOO  OOOOO  P       SSSSS ");
+
+        String banner = String.join("\n",
+                " OOOOO  OOOOO  PPPPP  SSSSS ",
+                "O     O O     O P    P S     ",
+                "O     O O     O PPPPP   SSSS ",
+                "O     O O     O P           S",
+                " OOOOO  OOOOO  P       SSSSS "
+        );
+
+        System.out.println(banner);
     }
 }
